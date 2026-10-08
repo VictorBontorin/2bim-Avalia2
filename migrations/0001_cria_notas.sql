@@ -1,1 +1,6 @@
 
+CREATE TABLE notas (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    aluno TEXT NOT NULL,
+    nota REAL
+);
